@@ -1,1 +1,36 @@
+body{
+	background-color: #f6efeb;
+}
+img{
+	display: block;
+	width: 30%;
+	margin: auto;
 
+}
+
+
+table{
+	width: 100%;
+
+}
+#basket{
+	
+    width: 84px;
+    height: 45px;   
+    background: #acb4bb;
+    border: none;
+    color: #721a45;   
+    font-size:14px;
+    font-weight:700;
+    border: 2px solid;
+    border-radius: 25px;
+
+}
+ .btn-group button {
+    background-color: #22688b;
+    border: 1px #22688b ; 
+    color: #f6efeb; /* White text */
+    padding: 10px 90px; /* Some padding */
+    cursor: pointer; /* Pointer/hand icon */
+    float: left; /* Float the buttons side by side */
+}
