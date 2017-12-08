@@ -1,0 +1,150 @@
+body, html{
+	background-color: white; /* Colour of background */
+    height: 100%; 
+}
+img{ /* Logo */
+	display: block;
+	width: 30%;
+	margin: auto;
+}
+#logo{ /* Logo */
+	margin-left: 40%;
+}
+table{
+	width: 100%;
+}
+.parallax { /* Scrolling effect */
+    background-image: url('camera1.png'); /* The image used */
+    height: 70%;  /* Full height */
+    background-attachment: fixed; /* Create the parallax scrolling effect  */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#basket{ /* Button for 'Basket' */
+    width: 84px;
+    height: 45px;   
+    background: #acb4bb;
+    border: none;
+    color: #721a45;   
+    font-size:14px;
+    font-weight:700;
+    border: 2px solid;
+    border-radius: 25px;
+    box-shadow: 10px 10px 5px #888888;
+}
+#contactlogo{ /* Social Media links */
+    width: 5px; 
+    height: 5px;
+}
+ .btn-group button { /* Navigation bar */
+    background-color: #22688b;
+    border: 1px #22688b ; 
+    color: #f6efeb; /* White text */
+    padding: 10px 0; /*  padding */
+    cursor: pointer; /* Pointer/hand icon */
+    float: left; /* Float the buttons side by side */
+    width: 20%;
+}
+.info { /* Home Page text */
+    height:500px;
+    background-color: #22688b;
+    color: #f6efeb;
+    font-size:18px
+}
+.dropbtn { /*Dropdown*/
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 90px;
+    font-size: 11.5px;
+    border: none;
+    cursor: pointer;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 80px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    margin-top: 33px;
+}
+.dropdown-content a {
+    color: black;
+    padding: 10px 80px;
+    text-decoration: none;
+    display: block;
+}
+.dropdown-content a:hover {background-color: #22688b}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+.footer{ /*Footer*/
+position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   text-align: center;
+}
+a { /* Footer text colour*/
+    color: white;
+}
+.logincontainer { /*Login page*/
+    width: 600px;
+    text-align:center;
+    margin: 0 auto;
+    }
+#purpletext {
+    color: #721a45;
+}
+#purplebutton {
+    background-color: #721a45;
+    color: white;
+    width:90px;
+    padding: 5px;
+    text-align: center;
+    margin: auto;
+}
+.greybox {
+
+    width: 300px;
+    height: 125px;
+    background-color: grey;
+    box-shadow: 10px 10px 5px #888888;
+    margin: auto;
+    padding: 10px;
+}
+.bgimg { /* Welcome page image */
+    background-image: url('qq.jpg');
+    height: 100%;
+    -webkit-filter: graysca;e(100%);
+    filter: grayscale(100%);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    color: white;
+    font-size: 25px;
+}
+.middle { /* Welcome page */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+hr { /* Horizontal line on Welcome page */
+    margin: auto;
+    width: 60%;
+   }
+#Home { /* Welcome page button */
+    background-color: Transparent;
+    color: white;
+    background-repeat:no-repeat;
+    border: double;
+    border-color: white;
+    cursor:pointer;
+    overflow: hidden;
+    font-size: 20px;
+    padding: 5px;
+    width: 70%;
+    }
