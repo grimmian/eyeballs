@@ -10,6 +10,11 @@ img{
 table{
 	width: 100%;
 }
+
+h2 {
+    font-family: sans-serif;
+    background-color: #acb4bb;
+}
 .parallax {
     /* The image used */
     background-image: url('camera.png');
@@ -41,6 +46,18 @@ table{
     border: 2px solid;
     border-radius: 25px;
     box-shadow: 10px 10px 5px #888888;
+}
+
+#header {
+    background-color: #acb4bb;
+    color: white;
+}
+
+
+#subBut {
+    background-color: #721a45;
+    color: white;
+    width: 100%;
 }
 #contactlogo{
     width: 5px; 
@@ -130,3 +147,98 @@ a {
     margin: auto;
     padding: 10px;
 }
+
+<style>
+* {box-sizing:border-box}
+
+.mySlides {display:none}
+
+/* Determines the positioning of the slideshow */
+.slideshow {
+  max-width: 800px;
+  position: relative;
+  margin: auto;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+}
+
+/* Position of the next button */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* Changes the colour of the arrows onced hovered over*/
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* The dots */
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+/* changes the colour of the dots when hovered over */
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+</style>
+
+<style>
+
+hr {
+    margin: auto;
+    width: 40%;
+}
+
+#specImg {
+    width: 30%;
+    height: 70%;
+}
+
+.leftImg {
+    width: 25%;
+    float: left;
+    
+}
+.rightText {
+    width: 75%;
+    float: right;
+}
+
+.eyeballpic {
+   width: 100%;
+    margin-left: auto;
+    position: left;
+}
+
+#margin {
+    padding: 2%;
+}
+</style>
